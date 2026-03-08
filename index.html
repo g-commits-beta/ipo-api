@@ -2,20 +2,225 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>IPO Data API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ワンクリIPO - IPO申込を自動化</title>
   <style>
-    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; }
-    a { color: #0366d6; }
-    code { background: #f6f8fa; padding: 2px 6px; border-radius: 3px; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #e0e0e0;
+      background: #0a0e1a;
+      line-height: 1.6;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background: linear-gradient(135deg, #0a0e1a 0%, #1a1f3a 100%);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    .hero .subtitle {
+      font-size: 1.2rem;
+      color: #94a3b8;
+      margin-bottom: 40px;
+    }
+    .hero .version-badge {
+      display: inline-block;
+      background: #1e3a5f;
+      color: #60a5fa;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin-bottom: 24px;
+    }
+    .download-btn {
+      display: inline-block;
+      background: #2563eb;
+      color: #fff;
+      padding: 16px 48px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .download-btn:hover { background: #1d4ed8; }
+    .download-info {
+      margin-top: 12px;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+    .features {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    .features h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #fff;
+      margin-bottom: 40px;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+    }
+    .feature-card {
+      background: #111827;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .feature-card .icon { font-size: 2rem; margin-bottom: 12px; }
+    .feature-card h3 { color: #fff; margin-bottom: 8px; font-size: 1.1rem; }
+    .feature-card p { color: #94a3b8; font-size: 0.9rem; }
+    .how-it-works {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    .how-it-works h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #fff;
+      margin-bottom: 40px;
+    }
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      background: #111827;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .step-num {
+      background: #2563eb;
+      color: #fff;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .step h3 { color: #fff; margin-bottom: 4px; }
+    .step p { color: #94a3b8; font-size: 0.9rem; }
+    .trial-info {
+      text-align: center;
+      padding: 60px 20px;
+      background: #111827;
+    }
+    .trial-info h2 { color: #fff; margin-bottom: 16px; font-size: 1.5rem; }
+    .trial-info p { color: #94a3b8; margin-bottom: 24px; }
+    .trial-info .download-btn { background: #16a34a; }
+    .trial-info .download-btn:hover { background: #15803d; }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #475569;
+      font-size: 0.8rem;
+    }
+    footer a { color: #64748b; }
   </style>
 </head>
 <body>
-  <h1>IPO Data API</h1>
-  <p>IPO銘柄データとAI評価ランキングのJSON API</p>
-  <h2>エンドポイント</h2>
-  <ul>
-    <li><a href="api/ipo.json"><code>/api/ipo.json</code></a> - 全IPO一覧（ファクト＋AIランク）</li>
-    <li><a href="api/meta.json"><code>/api/meta.json</code></a> - メタ情報（最終更新日時等）</li>
-  </ul>
+  <section class="hero">
+    <span class="version-badge">v0.0.1 プレリリース</span>
+    <h1>ワンクリIPO</h1>
+    <p class="subtitle">9証券会社のIPO申込をTelegramからワンクリックで</p>
+    <a href="https://github.com/g-commits-beta/ipo-data/releases/latest/download/ipo-manager.exe"
+       class="download-btn">
+      ダウンロード（Windows）
+    </a>
+    <p class="download-info">Windows 10/11 対応 ・ 7日間無料トライアル ・ 約123MB</p>
+  </section>
+
+  <section class="features">
+    <h2>主な機能</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="icon">📱</div>
+        <h3>Telegramから操作</h3>
+        <p>スマホのTelegramアプリから /list で銘柄一覧、タップで申込。PCを開く必要なし。</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🏦</div>
+        <h3>9証券会社対応</h3>
+        <p>SBI・SMBC日興・野村・みずほ・マネックス・楽天・東海東京など主要証券に対応。</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🔐</div>
+        <h3>パスキー認証</h3>
+        <p>Bitwarden拡張機能によるパスキー認証。ID/パスワードの手入力不要。</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🤖</div>
+        <h3>AIランク推定</h3>
+        <p>Claude AIによるIPO評価ランキング。注目銘柄を自動判定。</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🔔</div>
+        <h3>自動通知</h3>
+        <p>BB開始・当選・落選をTelegramで即時通知。見逃しゼロ。</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🔒</div>
+        <h3>ローカル完結</h3>
+        <p>全データはPC内に暗号化保存。外部サーバーへの送信なし。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <h2>使い方</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div>
+          <h3>ダウンロード＆起動</h3>
+          <p>EXEをダウンロードして起動。インストール不要。</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div>
+          <h3>初期設定</h3>
+          <p>Telegram連携・証券口座・Bitwarden設定をウィザードに沿って入力。</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div>
+          <h3>Telegramから申込</h3>
+          <p>/list コマンドで銘柄一覧を表示、タップするだけでIPO申込完了。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trial-info">
+    <h2>7日間無料で試せます</h2>
+    <p>ダウンロード後、すぐに全機能をお試しいただけます。<br>トライアル後は買い切りライセンスで継続利用可能。</p>
+    <a href="https://github.com/g-commits-beta/ipo-data/releases/latest/download/ipo-manager.exe"
+       class="download-btn">
+      無料で始める
+    </a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 ワンクリIPO. All rights reserved.</p>
+  </footer>
 </body>
 </html>
