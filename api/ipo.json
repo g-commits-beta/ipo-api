@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-22T03:32:30.994874",
+  "generated_at": "2026-04-23T03:36:07.401363",
   "ai_model": "claude-sonnet-4-5-20250929",
   "count": 16,
   "items": [
@@ -70,12 +70,12 @@
       ],
       "ai_rank": "C",
       "ai_score": 5,
-      "predicted_price": 710,
-      "ai_analysis": "東証スタンダード,酒造業,仮条件上限決定,需給やや良好",
+      "predicted_price": 720,
+      "ai_analysis": "東証スタンダード,酒造業,小型案件,需給やや良好",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "556A",
@@ -85,6 +85,7 @@
       "price_range": "2,790-2,990",
       "expected_price": "2,990",
       "offering_price": 2990,
+      "initial_price": 3500,
       "bb_start_date": "2026-04-08",
       "bb_end_date": "2026-04-14",
       "application_start_date": "2026-04-16",
@@ -142,13 +143,13 @@
         }
       ],
       "ai_rank": "C",
-      "ai_score": 6,
+      "ai_score": 5,
       "predicted_price": 3500,
-      "ai_analysis": "東証グロース,ペット関連,仮条件上限決定,需給良好",
+      "ai_analysis": "東証グロース,ペット関連,初値1.17倍,需給良好",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "558A",
@@ -225,11 +226,11 @@
       "ai_rank": "D",
       "ai_score": 4,
       "predicted_price": 3250,
-      "ai_analysis": "東証グロース,初値公開済,公開価格比+4.5%",
+      "ai_analysis": "東証グロース,初値1.04倍,需給普通,小幅上昇",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "554A",
@@ -313,11 +314,11 @@
       "ai_rank": "A",
       "ai_score": 9,
       "predicted_price": 1674,
-      "ai_analysis": "東証グロース,初値公開済,公開価格比+154%,M&Aマッチング,超小型案件,大幅高",
+      "ai_analysis": "東証グロース,M&Aマッチング,初値2.54倍,大幅上昇,需給極良",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "550A",
@@ -408,11 +409,11 @@
       "ai_rank": "B",
       "ai_score": 7,
       "predicted_price": 3200,
-      "ai_analysis": "東証スタンダード,初値公開済,公開価格比+65%,IT関連,超小型案件,好需給",
+      "ai_analysis": "東証スタンダード,IT関連,初値1.65倍,需給良好",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "549A",
@@ -468,11 +469,11 @@
       "ai_rank": "D",
       "ai_score": 3,
       "predicted_price": 422,
-      "ai_analysis": "東証スタンダード,初値公開済,公募割れ,大型案件,需給悪化",
+      "ai_analysis": "東証スタンダード,公募割れ,大型案件,需給悪化,慎重判断",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "548A",
@@ -535,11 +536,11 @@
       "ai_rank": "C",
       "ai_score": 5,
       "predicted_price": 1061,
-      "ai_analysis": "東証スタンダード,初値公開済,公開価格比+12%,IT関連",
+      "ai_analysis": "東証スタンダード,IT関連,初値1.12倍,小幅上昇",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "542A",
@@ -642,13 +643,13 @@
         }
       ],
       "ai_rank": "D",
-      "ai_score": 4,
+      "ai_score": 3,
       "predicted_price": 1301,
-      "ai_analysis": "東証グロース,初値公開済,公開価格比-5%,化粧品関連,大型案件",
+      "ai_analysis": "東証グロース,化粧品,公募割れ,大型案件,需給悪化",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "529A",
@@ -702,11 +703,11 @@
       "ai_rank": "D",
       "ai_score": 3,
       "predicted_price": 980,
-      "ai_analysis": "東証グロース,公開価格未定,仮条件単一価格,慎重姿勢",
+      "ai_analysis": "東証グロース,医療機器,仮条件据え置き,需給懸念,慎重判断",
       "min_shares": 100,
       "is_cancelled": true,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "523A",
@@ -790,11 +791,11 @@
       "ai_rank": "D",
       "ai_score": 3,
       "predicted_price": 1220,
-      "ai_analysis": "東証グロース,初値公開済,公募割れ,大型案件",
+      "ai_analysis": "東証グロース,公募割れ,大型案件,需給悪化,期待外れ",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "520A",
@@ -864,11 +865,11 @@
       "ai_rank": "E",
       "ai_score": 2,
       "predicted_price": 809,
-      "ai_analysis": "東証グロース,初値公開済,公開価格比-8%,バイオ関連,大型案件,公募割れ",
+      "ai_analysis": "東証グロース,バイオ,公募割れ,大型案件,需給悪化",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "519A",
@@ -987,11 +988,11 @@
       "ai_rank": "D",
       "ai_score": 3,
       "predicted_price": 800,
-      "ai_analysis": "東証グロース,初値公開済,公開価格比-8%,仮条件下方修正,公募割れ",
+      "ai_analysis": "東証グロース,SaaS,公募割れ,需給悪化,慎重判断",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "509A",
@@ -1033,11 +1034,11 @@
       "ai_rank": "D",
       "ai_score": 3,
       "predicted_price": 80000,
-      "ai_analysis": "インフラファンド,初値公開済,公開価格同値,大型案件",
+      "ai_analysis": "インフラファンド,初値横ばい,大型案件,需給普通,安定推移",
       "min_shares": 1,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "505A",
@@ -1119,13 +1120,13 @@
         }
       ],
       "ai_rank": "D",
-      "ai_score": 4,
+      "ai_score": 3,
       "predicted_price": 1757,
-      "ai_analysis": "東証スタンダード,初値公開済,公開価格比-8%,人材関連,公募割れ",
+      "ai_analysis": "東証スタンダード,人材紹介,公募割れ,需給悪化,慎重判断",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "504A",
@@ -1160,11 +1161,11 @@
       "ai_rank": "E",
       "ai_score": 2,
       "predicted_price": 1248,
-      "ai_analysis": "東証グロース,初値公開済,公開価格比-8%,バイオ関連,公募割れ",
+      "ai_analysis": "東証グロース,バイオ,公募割れ,大型案件,需給悪化",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     },
     {
       "code": "500A",
@@ -1225,13 +1226,13 @@
         }
       ],
       "ai_rank": "D",
-      "ai_score": 4,
+      "ai_score": 3,
       "predicted_price": 3595,
-      "ai_analysis": "東証スタンダード,初値公開済,公開価格比-8%,出版関連",
+      "ai_analysis": "東証スタンダード,出版,公募割れ,需給悪化,期待外れ",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-04-22T03:32:30.994522"
+      "last_updated": "2026-04-23T03:36:07.400985"
     }
   ]
 }
