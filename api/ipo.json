@@ -1,9 +1,116 @@
 {
   "version": "1.0",
-  "generated_at": "2026-08-13T02:34:17.137184",
+  "generated_at": "2026-08-14T02:32:40.156957",
   "ai_model": "claude-sonnet-4-5-20250929",
-  "count": 25,
+  "count": 26,
   "items": [
+    {
+      "code": "619A",
+      "name": "オリバー",
+      "market": "東S",
+      "listing_date": "2026-09-16",
+      "price_range": "288",
+      "expected_price": "288",
+      "bb_start_date": "2026-09-01",
+      "bb_end_date": "2026-09-07",
+      "application_start_date": "2026-09-09",
+      "application_end_date": "2026-09-14",
+      "lead_underwriter": "野村",
+      "syndicate": [
+        {
+          "broker_name": "野村證券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "大和証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "SBI証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "岩井コスモ証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "東海東京証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "岡三証券（岡三オンライン）",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "三菱UFJモルガン・スタンレー証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "みずほ証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "SMBC日興証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "楽天証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "松井証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "丸三証券",
+          "allocation": "-",
+          "allocation_pct": null,
+          "lottery_shares": null,
+          "is_lead": 0
+        }
+      ],
+      "ai_rank": "D",
+      "ai_score": 4,
+      "predicted_price": 295,
+      "ai_analysis": "東証スタンダード,小型案件,仮条件据え置き,需給不透明",
+      "min_shares": 100,
+      "is_cancelled": false,
+      "ai_model": "claude-sonnet-4-5-20250929",
+      "last_updated": "2026-08-14T02:32:40.156479"
+    },
     {
       "code": "618A",
       "name": "KOMPEITO",
@@ -77,11 +184,11 @@
       "ai_rank": "D",
       "ai_score": 3,
       "predicted_price": 1400,
-      "ai_analysis": "小型グロース,需給不透明,主幹事SBI",
+      "ai_analysis": "東証グロース,仮条件据え置き,SBI主幹事,慎重姿勢",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "607A",
@@ -137,11 +244,11 @@
       "ai_rank": "C",
       "ai_score": 5,
       "predicted_price": 294,
-      "ai_analysis": "初値1.28倍,動画配信,日興主幹事",
+      "ai_analysis": "初値1.28倍,動画レシピサービス,日興主幹事",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "604A",
@@ -197,11 +304,11 @@
       "ai_rank": "B",
       "ai_score": 7,
       "predicted_price": 1016,
-      "ai_analysis": "初値1.45倍,スタンダード,好需給",
+      "ai_analysis": "初値1.45倍,東証スタンダード,仮条件上振れ,好需給",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "603A",
@@ -271,11 +378,11 @@
       "ai_rank": "C",
       "ai_score": 6,
       "predicted_price": 953,
-      "ai_analysis": "初値1.24倍,エネルギーDX,野村主幹事",
+      "ai_analysis": "初値1.24倍,エネルギーDX,仮条件上振れ,野村主幹事",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "593A",
@@ -391,14 +498,14 @@
           "is_lead": 0
         }
       ],
-      "ai_rank": "E",
-      "ai_score": 2,
+      "ai_rank": "D",
+      "ai_score": 3,
       "predicted_price": 1009,
-      "ai_analysis": "公募割れ,大型案件,自動運転,吸収金額大",
+      "ai_analysis": "初値公募割れ,自動運転,大型案件,仮条件上振れも初値届かず",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "598A",
@@ -496,11 +603,11 @@
       "ai_rank": "A",
       "ai_score": 9,
       "predicted_price": 2284,
-      "ai_analysis": "初値2.11倍,小型SaaS,丸三主幹事,超好需給",
+      "ai_analysis": "初値2.11倍,チャットボットSaaS,小型好需給,丸三主幹事,人気化",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "589A",
@@ -563,11 +670,11 @@
       "ai_rank": "C",
       "ai_score": 5,
       "predicted_price": 1476,
-      "ai_analysis": "初値1.12倍,岡三主幹事,小型案件",
+      "ai_analysis": "初値1.12倍,岡三主幹事",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "584A",
@@ -658,11 +765,11 @@
       "ai_rank": "B",
       "ai_score": 7,
       "predicted_price": 1075,
-      "ai_analysis": "初値1.36倍,HR-Tech,野村主幹事",
+      "ai_analysis": "初値1.36倍,HR-Tech,仮条件上振れ,野村主幹事,好需給",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "581A",
@@ -746,11 +853,11 @@
       "ai_rank": "C",
       "ai_score": 6,
       "predicted_price": 2910,
-      "ai_analysis": "初値1.21倍,タクシーアプリ,大型案件",
+      "ai_analysis": "初値1.21倍,タクシーアプリ,野村主幹事,知名度高",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "559A",
@@ -820,11 +927,11 @@
       "ai_rank": "B",
       "ai_score": 7,
       "predicted_price": 900,
-      "ai_analysis": "初値1.5倍,酒造,スタンダード,日興主幹事",
+      "ai_analysis": "初値1.5倍,老舗酒造,東証スタンダード,日興主幹事,好需給",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "556A",
@@ -898,7 +1005,7 @@
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "558A",
@@ -975,11 +1082,11 @@
       "ai_rank": "D",
       "ai_score": 4,
       "predicted_price": 3250,
-      "ai_analysis": "初値1.05倍,美容,SBI主幹事",
+      "ai_analysis": "初値1.05倍,美容サロン,SBI主幹事,やや伸び悩み",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "554A",
@@ -1061,13 +1168,13 @@
         }
       ],
       "ai_rank": "A",
-      "ai_score": 9,
+      "ai_score": 10,
       "predicted_price": 1674,
-      "ai_analysis": "初値2.54倍,M&Aマッチング,大和主幹事,超好需給",
+      "ai_analysis": "初値2.54倍,M&Aマッチング,小型好需給,大和主幹事,人気集中",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "550A",
@@ -1158,11 +1265,11 @@
       "ai_rank": "B",
       "ai_score": 8,
       "predicted_price": 3200,
-      "ai_analysis": "初値1.65倍,IT,スタンダード,岡三主幹事,極小枚数",
+      "ai_analysis": "初値1.65倍,東証スタンダード,岡三主幹事,超小型好需給",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "549A",
@@ -1218,11 +1325,11 @@
       "ai_rank": "E",
       "ai_score": 2,
       "predicted_price": 422,
-      "ai_analysis": "公募割れ,介護,スタンダード,野村主幹事",
+      "ai_analysis": "初値公募割れ,東証スタンダード,仮条件下振れ,需給悪化",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "548A",
@@ -1285,11 +1392,11 @@
       "ai_rank": "C",
       "ai_score": 5,
       "predicted_price": 1061,
-      "ai_analysis": "初値1.12倍,IT,スタンダード,みずほ主幹事",
+      "ai_analysis": "初値1.12倍,東証スタンダード,IT企業,みずほ主幹事",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "542A",
@@ -1394,11 +1501,11 @@
       "ai_rank": "D",
       "ai_score": 3,
       "predicted_price": 1301,
-      "ai_analysis": "初値0.95倍,化粧品,SBI主幹事",
+      "ai_analysis": "初値公募割れ,化粧品,SBI主幹事",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "529A",
@@ -1451,12 +1558,12 @@
       ],
       "ai_rank": "D",
       "ai_score": 3,
-      "predicted_price": 1000,
-      "ai_analysis": "医療機器,野村主幹事,公募割れ懸念",
+      "predicted_price": 982,
+      "ai_analysis": "医療機器,仮条件据え置き,野村主幹事,慎重姿勢",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "523A",
@@ -1540,11 +1647,85 @@
       "ai_rank": "E",
       "ai_score": 2,
       "predicted_price": 1220,
-      "ai_analysis": "初値0.98倍,公募割れ,SBI主幹事",
+      "ai_analysis": "初値公募割れ,SBI主幹事",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
+    },
+    {
+      "code": "520A",
+      "name": "ジェイファーマ",
+      "market": "東G",
+      "listing_date": "2026-03-25",
+      "price_range": "840-900",
+      "expected_price": "920",
+      "offering_price": 880,
+      "initial_price": 809,
+      "bb_start_date": "2026-03-06",
+      "bb_end_date": "2026-03-12",
+      "application_start_date": "2026-03-16",
+      "application_end_date": "2026-03-19",
+      "lead_underwriter": "SBI",
+      "syndicate": [
+        {
+          "broker_name": "SBI証券",
+          "allocation": "2,916,200株",
+          "allocation_pct": 90.0,
+          "lottery_shares": 13123,
+          "is_lead": 1
+        },
+        {
+          "broker_name": "大和証券",
+          "allocation": "162,000株",
+          "allocation_pct": 5.0,
+          "lottery_shares": 162,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "松井証券",
+          "allocation": "32,400株",
+          "allocation_pct": 1.0,
+          "lottery_shares": 324,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "楽天証券",
+          "allocation": "32,400株",
+          "allocation_pct": 1.0,
+          "lottery_shares": 324,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "マネックス証券",
+          "allocation": "32,400株",
+          "allocation_pct": 1.0,
+          "lottery_shares": 324,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "東海東京証券",
+          "allocation": "32,400株",
+          "allocation_pct": 1.0,
+          "lottery_shares": 32,
+          "is_lead": 0
+        },
+        {
+          "broker_name": "東洋証券",
+          "allocation": "32,400株",
+          "allocation_pct": 1.0,
+          "lottery_shares": 32,
+          "is_lead": 0
+        }
+      ],
+      "ai_rank": "E",
+      "ai_score": 2,
+      "predicted_price": 809,
+      "ai_analysis": "初値公募割れ,バイオ医薬,仮条件下振れ,需給悪",
+      "min_shares": 100,
+      "is_cancelled": false,
+      "ai_model": "claude-sonnet-4-5-20250929",
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "519A",
@@ -1663,85 +1844,11 @@
       "ai_rank": "E",
       "ai_score": 2,
       "predicted_price": 800,
-      "ai_analysis": "初値0.92倍,公募割れ,岡三主幹事,マーケティングSaaS",
+      "ai_analysis": "初値公募割れ,仮条件大幅下振れ,岡三主幹事,需給悪化",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
-    },
-    {
-      "code": "520A",
-      "name": "ジェイファーマ",
-      "market": "東G",
-      "listing_date": "2026-03-25",
-      "price_range": "840-900",
-      "expected_price": "920",
-      "offering_price": 880,
-      "initial_price": 809,
-      "bb_start_date": "2026-03-06",
-      "bb_end_date": "2026-03-12",
-      "application_start_date": "2026-03-16",
-      "application_end_date": "2026-03-19",
-      "lead_underwriter": "SBI",
-      "syndicate": [
-        {
-          "broker_name": "SBI証券",
-          "allocation": "2,916,200株",
-          "allocation_pct": 90.0,
-          "lottery_shares": 13123,
-          "is_lead": 1
-        },
-        {
-          "broker_name": "大和証券",
-          "allocation": "162,000株",
-          "allocation_pct": 5.0,
-          "lottery_shares": 162,
-          "is_lead": 0
-        },
-        {
-          "broker_name": "松井証券",
-          "allocation": "32,400株",
-          "allocation_pct": 1.0,
-          "lottery_shares": 324,
-          "is_lead": 0
-        },
-        {
-          "broker_name": "楽天証券",
-          "allocation": "32,400株",
-          "allocation_pct": 1.0,
-          "lottery_shares": 324,
-          "is_lead": 0
-        },
-        {
-          "broker_name": "マネックス証券",
-          "allocation": "32,400株",
-          "allocation_pct": 1.0,
-          "lottery_shares": 324,
-          "is_lead": 0
-        },
-        {
-          "broker_name": "東海東京証券",
-          "allocation": "32,400株",
-          "allocation_pct": 1.0,
-          "lottery_shares": 32,
-          "is_lead": 0
-        },
-        {
-          "broker_name": "東洋証券",
-          "allocation": "32,400株",
-          "allocation_pct": 1.0,
-          "lottery_shares": 32,
-          "is_lead": 0
-        }
-      ],
-      "ai_rank": "E",
-      "ai_score": 2,
-      "predicted_price": 809,
-      "ai_analysis": "初値0.92倍,公募割れ,バイオ,SBI主幹事",
-      "min_shares": 100,
-      "is_cancelled": false,
-      "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "509A",
@@ -1787,7 +1894,7 @@
       "min_shares": 1,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "505A",
@@ -1871,11 +1978,11 @@
       "ai_rank": "D",
       "ai_score": 3,
       "predicted_price": 1757,
-      "ai_analysis": "初値0.92倍,公募割れ,人材,野村主幹事",
+      "ai_analysis": "初値公募割れ,東証スタンダード,HR-Tech,野村主幹事,需給悪",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "504A",
@@ -1908,13 +2015,13 @@
         }
       ],
       "ai_rank": "E",
-      "ai_score": 2,
+      "ai_score": 1,
       "predicted_price": 1248,
-      "ai_analysis": "初値0.92倍,公募割れ,バイオ,野村主幹事",
+      "ai_analysis": "初値公募割れ,バイオ創薬,野村主幹事,需給悪",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     },
     {
       "code": "500A",
@@ -1977,11 +2084,11 @@
       "ai_rank": "D",
       "ai_score": 3,
       "predicted_price": 3595,
-      "ai_analysis": "初値0.92倍,公募割れ,出版,日興主幹事,スタンダード",
+      "ai_analysis": "初値公募割れ,東証スタンダード,出版",
       "min_shares": 100,
       "is_cancelled": false,
       "ai_model": "claude-sonnet-4-5-20250929",
-      "last_updated": "2026-08-13T02:34:17.136698"
+      "last_updated": "2026-08-14T02:32:40.156479"
     }
   ]
 }
